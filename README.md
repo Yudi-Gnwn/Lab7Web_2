@@ -57,3 +57,42 @@ Yudi Gunawan
 - akses kembali ```http://localhost:8080/lab11_ci/ci4/public```
 
   ![Screenshot 2025-03-20 101438](https://github.com/user-attachments/assets/58238671-b451-4aa2-8408-e200381ea575)
+
+
+## Praktikum 2
+
+- nyalakan Mysql server pada xampp, lalu masuk ke database menggunakan cmd
+- buat database di cmd dengan perintah ```CREATE DATABASE lab_ci4;```
+  
+  ![2 2](https://github.com/user-attachments/assets/5c2bb726-15bc-4c6d-bc8e-57ef7d35481e)
+
+- kemudian kita melakukan konfigurasi untuk menghubungkan ke database server pada file ```.env```
+
+  ![2 3](https://github.com/user-attachments/assets/c1247991-11b3-431e-80ad-e69342d1626e)
+
+- buat file baru pada direktori ```app/Models``` dengan nama ```ArtikelModel.php``` untuk membuat script pengolahan data artikel
+
+  ![2 4](https://github.com/user-attachments/assets/c376f97e-c8fc-4cba-bbb0-f5b7bd3f3cde)
+
+- pada direktori ```app/Controler```, kita membuat Controler baru dengan nama ```Artikel.php```, dengan script dibawah:
+
+  ![2 5](https://github.com/user-attachments/assets/d4501a36-e548-4f44-a2ec-99220ee3387b)
+
+- pada direktori ```app/views```, buat direktori baru dengan nama ```artikel``` dan tambahkan/buat file ```index.php```
+
+  ![2 6](https://github.com/user-attachments/assets/123d115f-2cab-463c-89bd-21adaf790fc6)
+
+- setelah sudah di setup, kita bisa menambahkan data artikel ke database untuk bisa ditampilkan pada Web
+
+  ![2 8](https://github.com/user-attachments/assets/55183bc0-8f39-4b5f-8831-09d73b571b59)
+
+- Cek browser untuk melihat perubahan
+
+  ![2 9](https://github.com/user-attachments/assets/cda49e19-d245-490e-9da7-6f4926159cbc)
+
+- 
+
+  
+
+
+  
