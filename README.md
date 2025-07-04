@@ -1,10 +1,9 @@
-# Tugas Praktikum 1-11
-# Lab7Web_2
-
-Yudi Gunawan (312310179) <br>
-Ti.23.A2
-
-# Praktikum 1
+# Tugas Praktikum Pemrograman Web 2
+```
+Yudi Gunawan
+312310179
+```
+## Praktikum 1
 - download codeigniter dari website, kemudian ekstrak file ke direktori baru
   htdocs/lab11_ci, kemudian ubah nama file menjadi ci4
 - kemudian cek ```http://localhost/lab11_ci/ci4/public```
