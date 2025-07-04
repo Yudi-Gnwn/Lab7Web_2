@@ -8,7 +8,7 @@ Ti.23.A2
 # Praktikum 1
 - download codeigniter dari website, kemudian ekstrak file ke direktori baru
   htdocs/lab11_ci, kemudian ubah nama file menjadi ci4
-- kemudian cek http://localhost/lab11_ci/ci4/public
+- kemudian cek ```http://localhost/lab11_ci/ci4/public```
   
   ![Screenshot 2025-03-19 112837](https://github.com/user-attachments/assets/5fc81915-ec3a-4c8f-ab46-39f80f405570)
 
@@ -16,7 +16,7 @@ Ti.23.A2
 
   ![Screenshot 2025-03-19 113715](https://github.com/user-attachments/assets/f9b999d1-78ae-479c-b2b1-fe99bc260f60)
 
-- kemudian jalankan codeigniter dengan perintah "php spark"
+- kemudian jalankan codeigniter dengan perintah```php spark```
 
   ![Screenshot 2025-03-19 115600](https://github.com/user-attachments/assets/66a4c97d-22aa-4713-b622-f84d69dbc613)
 
