@@ -1,8 +1,7 @@
 # Tugas Praktikum 1-11
 # Lab7Web_2
 
-Yudi Gunawan <br>
-312310179 <br>
+Yudi Gunawan (312310179)
 Ti.23.A2
 
 # Praktikum 1
