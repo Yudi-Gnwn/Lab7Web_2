@@ -3,7 +3,7 @@
 Yudi Gunawan
 312310179
 ```
-## Praktikum 1
+# Praktikum 1
 - download codeigniter dari website, kemudian ekstrak file ke direktori baru
   htdocs/lab11_ci, kemudian ubah nama file menjadi ci4
 - kemudian cek ```http://localhost/lab11_ci/ci4/public```
@@ -59,7 +59,7 @@ Yudi Gunawan
   ![Screenshot 2025-03-20 101438](https://github.com/user-attachments/assets/58238671-b451-4aa2-8408-e200381ea575)
 
 
-## Praktikum 2
+# Praktikum 2
 
 - nyalakan Mysql server pada xampp, lalu masuk ke database menggunakan cmd
 - buat database di cmd dengan perintah ```CREATE DATABASE lab_ci4;```
@@ -133,15 +133,23 @@ Yudi Gunawan
 
   ![2 17](https://github.com/user-attachments/assets/c107d6bf-11c2-41ca-a0ff-9f4f5318e387)
 
-- 
+- buat view untuk form add dengan nama ```form_add.php```, kamudian cek kembali url nya
+
+  ![2 19](https://github.com/user-attachments/assets/a88e237d-e62a-443e-8d25-913d441d3a40)
+
+- kemudian kita bisa membuat fungsi untuk mengubah data ```edit()``` pada ```Controller Artikel```
+
+  ![2 20](https://github.com/user-attachments/assets/dd7f4bdf-f1b6-4293-ac55-c42ca05ce762)
+
+- Membuat View untuk form edit, buat dengan nama ```from_edit.php```
+
+  ![2 21](https://github.com/user-attachments/assets/9fa26fea-965e-48ad-898f-b3cfb136319f)
+
+  ![2 22](https://github.com/user-attachments/assets/570e619d-85bb-4981-8457-d03e5136d358)
+
+- lanjut dengan membuat fungsi dengan nama ```delete()``` pada ```Controller Artikel``` untuk menghapus Data
+
+  ![2 23](https://github.com/user-attachments/assets/77bc5094-065d-4cd7-81d6-9c7c14712ef0)
 
 
-
-  
-
-  
-
-  
-
-
-  
+# Praktikum 3
