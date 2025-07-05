@@ -84,13 +84,62 @@ Yudi Gunawan
 
 - setelah sudah di setup, kita bisa menambahkan data artikel ke database untuk bisa ditampilkan pada Web
 
-  ![2 8](https://github.com/user-attachments/assets/55183bc0-8f39-4b5f-8831-09d73b571b59)
+  ![2 8](https://github.com/user-attachments/assets/55183bc0-8f39-4b5f-8831-09d73b571b59)bu
 
 - Cek browser untuk melihat perubahan
 
   ![2 9](https://github.com/user-attachments/assets/cda49e19-d245-490e-9da7-6f4926159cbc)
 
+- Membuat tampilan Detail Artikel
+- taambahkan function ```view()``` pada ```Controller Article```
+
+  ![2 10](https://github.com/user-attachments/assets/bcb9af2f-bb55-42de-8bab-fc869c144749)
+
+- Membuat View Detail, buat view baru untuk halaman detail pada ```app/views/artikel/detail.php```
+
+  ![2 11](https://github.com/user-attachments/assets/7a8356fa-b99e-44b9-a577-6acb057bad4e)
+
+- Membuat routing untuk artikel detail
+- buka ```app/config/Routes.php```, kemudian tambahkan
+  ```
+  $routes->get('/artikel/(:any)', 'Artikel::view/$1');
+  ```
+  untuk artikel detail
+
+  ![2 12](https://github.com/user-attachments/assets/43e2fe23-369c-4fa8-99e6-ff1a4adf0838)
+
+- Selanjutnya kita membuat menu admin dengan nama ```admin_index``` pada ```Controller Artikel``` untuk memproses CRUD
+
+  ![2 13](https://github.com/user-attachments/assets/df002890-92bf-4b99-ad14-120ce5938805)
+
+- kemudian membuat view untuk tampilan admin dengan nama ```admin_index.php```
+
+  ![2 14](https://github.com/user-attachments/assets/3f70f68a-37e0-49ca-b93f-7f38823ebe83)
+
+- selanjutnya tambahkan routing untuk menu admin,
+  ```
+  $routes->group('admin', function($routes) {
+   $routes->get('artikel', 'Artikel::admin_index');
+   $routes->add('artikel/add', 'Artikel::add');
+   $routes->add('artikel/edit/(:any)', 'Artikel::edit/$1');
+   $routes->get('artikel/delete/(:any)', 'Artikel::delete/$1');
+  });
+  ```
+  kemudian akses kembali menu admin dengan ```http://localhost:8080/admin/artikel```
+
+  ![2 16](https://github.com/user-attachments/assets/f0b94c05-9dda-47c9-807c-c5897236c03f)
+
+- selanjutnya kita bisa membuat fungsi untuk menambahkan data arikel dengan ```add()``` pada ```Controller Artikel```
+
+  ![2 17](https://github.com/user-attachments/assets/c107d6bf-11c2-41ca-a0ff-9f4f5318e387)
+
 - 
+
+
+
+  
+
+  
 
   
 
